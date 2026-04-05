@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.parallax {
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.black-block {
+    height: 150vh; 
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.t {
+    background-image: url("https://m.media-amazon.com/images/I/51NwF5fO5hL._SY522_.jpg");
+}
+
+.b {
+    background-image: url("https://static.wikia.nocookie.net/jjba/images/a/a5/GoldExperience_Requiem.png/revision/latest?cb=20150312043848&path-prefix=pt-br");
+}
